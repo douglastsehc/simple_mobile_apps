@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Magic Booksss</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game_mode">GameModeActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_game_over">GameOverActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_story">StoryActivity</string>
+    <string name="title_activity_how_to_play">HowToPlayActivity</string>
+</resources>

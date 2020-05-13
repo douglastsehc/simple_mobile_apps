@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/story"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mad.gp04.magicbooksss.StoryActivity"
+    tools:showIn="@layout/activity_story">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="One day, a boy found a magic book,he opened it and all words disappeared.\nHe needs to choose correct words,\nAnd complete the story book."
+        android:id="@+id/story"
+        android:textStyle="normal"
+        android:textColor="#9a7b69"
+        android:textSize="22dp"
+        android:fontFamily="Hannotate SC"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/mutebutton"
+        android:layout_alignStart="@+id/mutebutton"
+        android:layout_marginTop="78dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/mutebutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        android:background="@null"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Story "
+        android:id="@+id/textView2"
+        android:fontFamily="HanziPen SC "
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_below="@+id/mutebutton"
+        android:layout_centerHorizontal="true"
+        android:textColor="#9a7b69" />
+
+
+</RelativeLayout>
