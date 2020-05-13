@@ -1,0 +1,17 @@
+Applications Graphics Acceleration Info:
+Uptime: 30121254 Realtime: 138327003
+
+** Graphics info for pid 29013 [com.mad.gp04.magicbooksss] **
+Profile data in ms:
+
+	com.mad.gp04.magicbooksss/com.mad.gp04.magicbooksss.GameOverActivity/android.view.ViewRootImpl@65c0af1 (visibility=0)
+View hierarchy:
+
+  com.mad.gp04.magicbooksss/com.mad.gp04.magicbooksss.GameOverActivity/android.view.ViewRootImpl@65c0af1
+  15 views, 22.15 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        15
+Total DisplayList:  22.15 kB
+

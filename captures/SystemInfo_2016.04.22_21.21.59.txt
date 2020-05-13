@@ -1,0 +1,25 @@
+TASK com.mad.gp04.magicbooksss id=4226
+  ACTIVITY com.mad.gp04.magicbooksss/.GameOverActivity 34bc8e01 pid=29013
+    Local FragmentActivity 3b4e1f68 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@453f81
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@453f81
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{159b8826 V.E..... ... 0,0-720,1280}
+        android.widget.LinearLayout{a18bc67 V.E..... ... 0,0-720,1280}
+          android.view.ViewStub{3499ca14 G.E..... ... 0,0-0,0 #1020392}
+          android.widget.FrameLayout{208552bd V.E..... ... 0,0-720,1280}
+            android.support.v7.widget.FitWindowsLinearLayout{332800b2 V.E..... ... 0,0-720,1280 #7f0d0055 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{33eab803 G.E..... ... 0,0-0,0 #7f0d0056 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{34537380 V.E..... ... 0,0-720,1280 #1020002 android:id/content}
+                android.support.design.widget.CoordinatorLayout{9b95db9 V.ED.... ... 0,0-720,1280}
+                  android.widget.RelativeLayout{149175fe V.E..... ... 0,48-720,1280}
+                    android.support.v7.widget.AppCompatTextView{1456d15f V.ED.... ... 40,110-679,284 #7f0d0075 app:id/textView}
+                    android.support.v7.widget.AppCompatButton{2b3c47ac VFED..C. ... 231,1008-489,1104 #7f0d0076 app:id/button_restart}
+                    android.support.v7.widget.AppCompatTextView{21891c75 V.ED.... ... 187,463-533,522 #7f0d0078 app:id/textView_highestscore}
+                    android.support.v7.widget.AppCompatTextView{58af40a V.ED.... ... 200,340-519,407 #7f0d0079 app:id/textView_gamemode}
+                    android.support.v7.widget.AppCompatTextView{3c41247b V.ED.... ... 232,575-448,656 #7f0d007a app:id/textView_score}
+                    android.support.v7.widget.AppCompatButton{32fc3298 VFED..C. ... 272,1104-448,1200 #7f0d0077 app:id/button8}
